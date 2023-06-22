@@ -34,9 +34,6 @@ pip install commonroad-scenario-designer
 
 ### GUI Usage
 
-![GUI_Screenshot](docs/source/details/images/gui_screenshot.png)
-
-Within the GUI, you can also execute the different converters.
 The GUI can either be activated via the command line via the following two options:
 
 ```bash
@@ -45,12 +42,7 @@ $ crdesigner gui
 ```
 Note that you have to activate first the Python environment in which the CommonRoad Scenario Designer is installed.
 
-### Map Converters in GUI
-You can execute the different converters either via the GUI.
 
-#### GUI
-The GUI provides a toolbox with which contains functionality to load maps given in formats other the CommonRoad format   
-and to convert CommonRoad maps to other formats or the other formats to the CommonRoad format.
 
 
 
