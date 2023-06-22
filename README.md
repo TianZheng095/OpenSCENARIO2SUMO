@@ -2,7 +2,9 @@
 Automatic traffic scenario conversion interface between OpenSCENARIO and the traffic simulator SUMO. Currently, only the conversion from **O**pen**SC**ENARIO to **C**ommon**R**OAD (osc2cr) is developed.<br>
 
 ### Reference
-This repo refers to https://gitlab.lrz.de/tum-cps/commonroad-openscenario-converter.git;https://gitlab.lrz.de/tum-cps/commonroad-scenario-designer.git
+This repo refers to 
+1. https://gitlab.lrz.de/tum-cps/commonroad-scenario-designer.git
+2. https://gitlab.lrz.de/tum-cps/commonroad-openscenario-converter.git
 
 ### Requirements
 The code is written in Python 3.10 and has been tested on Ubuntu 22.04. 
