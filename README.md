@@ -4,7 +4,7 @@ Automatic traffic scenario conversion interface between OpenSCENARIO and the tra
 ### Reference
 This repo refers to https://gitlab.lrz.de/tum-cps/commonroad-openscenario-converter.git
 
-
+### Requirements
 The code is written in Python 3.10 and has been tested on Ubuntu 22.04. 
 
 ### Using the Converter
