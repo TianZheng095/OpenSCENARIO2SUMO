@@ -2,12 +2,60 @@
 Automatic traffic scenario conversion interface between OpenSCENARIO and the traffic simulator SUMO. Currently, only the conversion from **O**pen**SC**ENARIO to **C**ommon**R**OAD (osc2cr) is developed.<br>
 
 ### Reference
-This repo refers to https://gitlab.lrz.de/tum-cps/commonroad-openscenario-converter.git
+This repo refers to https://gitlab.lrz.de/tum-cps/commonroad-openscenario-converter.git;https://gitlab.lrz.de/tum-cps/commonroad-scenario-designer.git
 
 ### Requirements
 The code is written in Python 3.10 and has been tested on Ubuntu 22.04. 
 
-### Using the Converter
+If you want to use the SUMO conversion or to generate traffic using SUMO, please install 
+[SUMO](https://sumo.dlr.de/docs/index.html):
+```bash
+sudo apt-get update
+sudo apt-get install sumo sumo-tools sumo-doc
+echo "export SUMO_HOME=/usr/share/sumo" >> ~/.bashrc
+echo 'export PYTHONPATH="$SUMO_HOME/tools:$PYTHONPATH"' >> ~/.bashrc
+```
+If you use zsh, replace `.bashrc` with `.zshrc`.
+
+
+### Using the CommonRoad Scenario Designer
+The recommended way of installation if you only want to use the scenario designer (i.e., you do not want to work with the code directly) is to use the PyPI package:
+```bash
+pip install commonroad-scenario-designer
+```
+
+
+### Common Errors during installation
+
+- **Could not load the Qt platform plugin “xcb” in “” even though it was found:** Error seems to be a missing package - either libxkbcommon-x11 or libxcb-xinerama0 (both can be installed by ```sudo apt install [package_name]```). See for reference [here](https://discuss.pixls.us/t/solved-could-not-load-the-qt-platform-plugin-xcb-in-even-though-it-was-found/17677/9)
+
+
+
+
+### GUI Usage
+
+![GUI_Screenshot](docs/source/details/images/gui_screenshot.png)
+
+Within the GUI, you can also execute the different converters.
+The GUI can either be activated via the command line via the following two options:
+
+```bash
+$ crdesigner
+$ crdesigner gui
+```
+Note that you have to activate first the Python environment in which the CommonRoad Scenario Designer is installed.
+
+### Map Converters in GUI
+You can execute the different converters either via the GUI.
+
+#### GUI
+The GUI provides a toolbox with which contains functionality to load maps given in formats other the CommonRoad format   
+and to convert CommonRoad maps to other formats or the other formats to the CommonRoad format.
+
+
+
+
+### Using the commonroad-openscenario-converter
 The recommended way of installation if you only want to use the OpenSCENARIO-CommonROAD Converter
 (i.e., you do not want to work with the code directly) is to use the PyPI package:
 ```bash
