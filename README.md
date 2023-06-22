@@ -88,6 +88,24 @@ see [here](https://github.com/OpenSimulationInterface/open-simulation-interface)
 
 
 ### Citation
+[paper]([https://arxiv.org/pdf/2305.10080.pdf](https://mediatum.ub.tum.de/doc/1624607/document.pdf)):
+```
+@inproceedings{Maierhofer2021,
+	author = {Sebastian Maierhofer, Moritz Klischat, and Matthias Althoff},
+	title = {CommonRoad Scenario Designer: An Open-Source Toolbox for Map Conversion and Scenario Creation for Autonomous Vehicles},
+	booktitle = {Proc. of the IEEE Int. Conf. on Intelligent Transportation Systems },
+	year = {2021},
+	abstract = {Maps are essential for testing autonomous driving functions. Several map and scenario formats are 
+                    available. However, they are usually not compatible with each other, limiting their usability.  
+                    In this paper, we address this problem using our open-source toolbox that provides map converters  
+                    from different formats to the well-known CommonRoad format. Our toolbox provides converters for 
+                    OpenStreetMap, Lanelet/Lanelet2, OpenDRIVE, and SUMO. Additionally, a graphical user interface is 
+                    included, which allows one to efficiently create and manipulate CommonRoad maps and scenarios. 
+                    We demonstrate the functionality of the toolbox by creating CommonRoad maps and scenarios based on 
+                    other map formats and manually-created map data.},
+}
+```
+
 [paper](https://arxiv.org/pdf/2305.10080.pdf):
 ```text
 @article{osc2cr,
