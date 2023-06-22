@@ -90,7 +90,7 @@ see [here](https://github.com/OpenSimulationInterface/open-simulation-interface)
 
 
 ### Citation
-[paper]([https://arxiv.org/pdf/2305.10080.pdf](https://mediatum.ub.tum.de/doc/1624607/document.pdf)):
+[paper](https://arxiv.org/pdf/2305.10080.pdf):
 ```
 @inproceedings{Maierhofer2021,
 	author = {Sebastian Maierhofer, Moritz Klischat, and Matthias Althoff},
