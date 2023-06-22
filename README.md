@@ -90,7 +90,5 @@ see [here](https://github.com/OpenSimulationInterface/open-simulation-interface)
 
 
 ### Paper Reference
-[CommonRoad Scenario Designer: An Open-Source Toolbox for Map Conversion and Scenario Creation for Autonomous Vehicles](https://arxiv.org/pdf/2305.10080.pdf):
-
-
-[Automatic Traffic Scenario Conversion from OpenSCENARIO to CommonRoad](https://arxiv.org/pdf/2305.10080.pdf):
+1. [CommonRoad Scenario Designer: An Open-Source Toolbox for Map Conversion and Scenario Creation for Autonomous Vehicles](https://arxiv.org/pdf/2305.10080.pdf)
+2. [Automatic Traffic Scenario Conversion from OpenSCENARIO to CommonRoad](https://arxiv.org/pdf/2305.10080.pdf)
