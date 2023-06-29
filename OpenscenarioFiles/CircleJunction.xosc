@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSCENARIO>
+    <FileHeader revMajor="1" revMinor="0" date="2023-06-29T17:16:04" description="Exported from RoadRunner versionR2023a Update 1 (1.6.1.d0272cb24e4)" author="MathWorks"/>
+    <ParameterDeclarations/>
+    <CatalogLocations/>
+    <RoadNetwork>
+        <LogicFile filepath="./CircleJunction.xodr"/>
+        <SceneGraphFile filepath="./CircleJunction.osgb"/>
+    </RoadNetwork>
+    <Entities>
+        <ScenarioObject name="CompactCar">
+            <Vehicle name="CompactCar" vehicleCategory="car">
+                <ParameterDeclarations/>
+                <BoundingBox>
+                    <Center x="0" y="0" z="0.705196"/>
+                    <Dimensions height="1.41489" length="3.65698" width="1.86693"/>
+                </BoundingBox>
+                <Performance maxAcceleration="5" maxDeceleration="5" maxSpeed="65"/>
+                <Axles>
+                    <FrontAxle maxSteering="0.698132" positionX="1.17035" positionZ="0.315215" trackWidth="1.19184" wheelDiameter="0.63043"/>
+                    <RearAxle maxSteering="0" positionX="-1.2491" positionZ="0.315215" trackWidth="1.19184" wheelDiameter="0.63043"/>
+                </Axles>
+                <Properties/>
+            </Vehicle>
+        </ScenarioObject>
+        <ScenarioObject name="CompactCar2">
+            <Vehicle name="CompactCar2" vehicleCategory="car">
+                <ParameterDeclarations/>
+                <BoundingBox>
+                    <Center x="0" y="0" z="0.705196"/>
+                    <Dimensions height="1.41489" length="3.65698" width="1.86693"/>
+                </BoundingBox>
+                <Performance maxAcceleration="5" maxDeceleration="5" maxSpeed="65"/>
+                <Axles>
+                    <FrontAxle maxSteering="0.698132" positionX="1.17035" positionZ="0.315215" trackWidth="1.19184" wheelDiameter="0.63043"/>
+                    <RearAxle maxSteering="0" positionX="-1.2491" positionZ="0.315215" trackWidth="1.19184" wheelDiameter="0.63043"/>
+                </Axles>
+                <Properties/>
+            </Vehicle>
+        </ScenarioObject>
+        <ScenarioObject name="CompactCar3">
+            <Vehicle name="CompactCar3" vehicleCategory="car">
+                <ParameterDeclarations/>
+                <BoundingBox>
+                    <Center x="0" y="0" z="0.705196"/>
+                    <Dimensions height="1.41489" length="3.65698" width="1.86693"/>
+                </BoundingBox>
+                <Performance maxAcceleration="5" maxDeceleration="5" maxSpeed="65"/>
+                <Axles>
+                    <FrontAxle maxSteering="0.698132" positionX="1.17035" positionZ="0.315215" trackWidth="1.19184" wheelDiameter="0.63043"/>
+                    <RearAxle maxSteering="0" positionX="-1.2491" positionZ="0.315215" trackWidth="1.19184" wheelDiameter="0.63043"/>
+                </Axles>
+                <Properties/>
+            </Vehicle>
+        </ScenarioObject>
+        <ScenarioObject name="CompactCar4">
+            <Vehicle name="CompactCar4" vehicleCategory="car">
+                <ParameterDeclarations/>
+                <BoundingBox>
+                    <Center x="0" y="0" z="0.705196"/>
+                    <Dimensions height="1.41489" length="3.65698" width="1.86693"/>
+                </BoundingBox>
+                <Performance maxAcceleration="5" maxDeceleration="5" maxSpeed="65"/>
+                <Axles>
+                    <FrontAxle maxSteering="0.698132" positionX="1.17035" positionZ="0.315215" trackWidth="1.19184" wheelDiameter="0.63043"/>
+                    <RearAxle maxSteering="0" positionX="-1.2491" positionZ="0.315215" trackWidth="1.19184" wheelDiameter="0.63043"/>
+                </Axles>
+                <Properties/>
+            </Vehicle>
+        </ScenarioObject>
+    </Entities>
+    <Storyboard>
+        <Init>
+            <Actions>
+                <Private entityRef="CompactCar">
+                    <PrivateAction>
+                        <TeleportAction>
+                            <Position>
+                                <LanePosition roadId="6" laneId="1" offset="1.60475e-08" s="5.01239">
+                                    <Orientation type="absolute" h="-2.85966" p="0" r="0"/>
+                                </LanePosition>
+                            </Position>
+                        </TeleportAction>
+                    </PrivateAction>
+                    <PrivateAction>
+                        <LongitudinalAction>
+                            <SpeedAction>
+                                <SpeedActionDynamics dynamicsShape="step" dynamicsDimension="time" value="0.0000000000000000e+00"/>
+                                <SpeedActionTarget>
+                                    <AbsoluteTargetSpeed value="1.7881599426269531e+01"/>
+                                </SpeedActionTarget>
+                            </SpeedAction>
+                        </LongitudinalAction>
+                    </PrivateAction>
+                </Private>
+                <Private entityRef="CompactCar2">
+                    <PrivateAction>
+                        <TeleportAction>
+                            <Position>
+                                <LanePosition roadId="6" laneId="-1" offset="1.23352e-08" s="20.5416">
+                                    <Orientation type="absolute" h="0.510672" p="0" r="0"/>
+                                </LanePosition>
+                            </Position>
+                        </TeleportAction>
+                    </PrivateAction>
+                    <PrivateAction>
+                        <LongitudinalAction>
+                            <SpeedAction>
+                                <SpeedActionDynamics dynamicsShape="step" dynamicsDimension="time" value="0.0000000000000000e+00"/>
+                                <SpeedActionTarget>
+                                    <AbsoluteTargetSpeed value="1.7881599426269531e+01"/>
+                                </SpeedActionTarget>
+                            </SpeedAction>
+                        </LongitudinalAction>
+                    </PrivateAction>
+                </Private>
+                <Private entityRef="CompactCar3">
+                    <PrivateAction>
+                        <TeleportAction>
+                            <Position>
+                                <LanePosition roadId="9" laneId="1" offset="8.8802e-16" s="39.1781">
+                                    <Orientation type="absolute" h="-3.12273" p="0" r="0"/>
+                                </LanePosition>
+                            </Position>
+                        </TeleportAction>
+                    </PrivateAction>
+                    <PrivateAction>
+                        <LongitudinalAction>
+                            <SpeedAction>
+                                <SpeedActionDynamics dynamicsShape="step" dynamicsDimension="time" value="0.0000000000000000e+00"/>
+                                <SpeedActionTarget>
+                                    <AbsoluteTargetSpeed value="1.7881599426269531e+01"/>
+                                </SpeedActionTarget>
+                            </SpeedAction>
+                        </LongitudinalAction>
+                    </PrivateAction>
+                </Private>
+                <Private entityRef="CompactCar4">
+                    <PrivateAction>
+                        <TeleportAction>
+                            <Position>
+                                <LanePosition roadId="1" laneId="-1" offset="0" s="81.37">
+                                    <Orientation type="absolute" h="0.0125312" p="0" r="0"/>
+                                </LanePosition>
+                            </Position>
+                        </TeleportAction>
+                    </PrivateAction>
+                    <PrivateAction>
+                        <LongitudinalAction>
+                            <SpeedAction>
+                                <SpeedActionDynamics dynamicsShape="step" dynamicsDimension="time" value="0.0000000000000000e+00"/>
+                                <SpeedActionTarget>
+                                    <AbsoluteTargetSpeed value="1.7881599426269531e+01"/>
+                                </SpeedActionTarget>
+                            </SpeedAction>
+                        </LongitudinalAction>
+                    </PrivateAction>
+                </Private>
+            </Actions>
+        </Init>
+        <Story name="EmptyStory">
+            <Act name="EmptyAct">
+                <ManeuverGroup name="EmptyGroup" maximumExecutionCount="1">
+                    <Actors selectTriggeringEntities="false"/>
+                </ManeuverGroup>
+                <StartTrigger>
+                    <ConditionGroup>
+                        <Condition name="SimulationStart" conditionEdge="none" delay="0.0000000000000000e+00">
+                            <ByValueCondition>
+                                <SimulationTimeCondition value="0.0000000000000000e+00" rule="greaterThan"/>
+                            </ByValueCondition>
+                        </Condition>
+                    </ConditionGroup>
+                </StartTrigger>
+                <StopTrigger/>
+            </Act>
+        </Story>
+        <StopTrigger>
+            <ConditionGroup>
+                <Condition name="" conditionEdge="none" delay="0.0000000000000000e+00">
+                    <ByValueCondition>
+                        <SimulationTimeCondition value="6.0000000000000000e+01" rule="greaterThan"/>
+                    </ByValueCondition>
+                </Condition>
+            </ConditionGroup>
+            <ConditionGroup>
+                <Condition name="" conditionEdge="none" delay="0.0000000000000000e+00">
+                    <ByEntityCondition>
+                        <TriggeringEntities triggeringEntitiesRule="any">
+                            <EntityRef entityRef="CompactCar3"/>
+                            <EntityRef entityRef="CompactCar"/>
+                            <EntityRef entityRef="CompactCar4"/>
+                            <EntityRef entityRef="CompactCar2"/>
+                        </TriggeringEntities>
+                        <EntityCondition>
+                            <CollisionCondition>
+                                <ByType type="vehicle"/>
+                            </CollisionCondition>
+                        </EntityCondition>
+                    </ByEntityCondition>
+                </Condition>
+            </ConditionGroup>
+        </StopTrigger>
+    </Storyboard>
+</OpenSCENARIO>
