@@ -3,12 +3,12 @@ from osc_cr_converter.utility.configuration import ConverterParams
 from osc_cr_converter.utility.visualization import visualize_scenario
 
 # scenario path and name
-openscenario = '/home/tianzheng/Documents/ASAMFiles/SimpleCurveScenario1/SimpleCurve.xosc'
-# openscenario = '/home/tianzheng/Documents/Github/commonroad-openscenario-converter/scenarios/from_esmini/xosc/pedestrian_collision.xosc'
+openscenario = '' # replace by /.../OpenSCENARIO2SUMO/test/SimpleCurve.xosc
+
 
 # build configuration
 # config = ConverterParams()
-config = ConverterParams.load('/home/tianzheng/Documents/Github/commonroad-openscenario-converter/test/SimpleCurve.yaml')
+config = ConverterParams.load('') # replace by /.../OpenSCENARIO2SUMO/test/Store.yaml
 
 # convert OpenSCENARIO to CommonRoad
 converter = Osc2CrConverter(config)
