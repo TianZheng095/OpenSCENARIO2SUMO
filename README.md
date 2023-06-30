@@ -86,8 +86,8 @@ Fist way: using crdesigner GUI
 
 ![pics/coversion2SUMO.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/coversion2SUMO.png)
 
-advantage: easy to operate
-shortcoming: no clear error message when encountering an error
+- Advantage: easy to operate
+- Shortcoming: no clear error message when encountering an error
 
 Second way: using the script
 ```bash
@@ -96,8 +96,8 @@ $ python example_commonroad_to_sumo.py
 ```
 
 
-advantage: clear error message when encountering an error
-shortcoming: complicate to operate
+- Advantage: clear error message when encountering an error
+- Shortcoming: complicate to operate
 
 ### Paper Reference
 1. [CommonRoad Scenario Designer: An Open-Source Toolbox for Map Conversion and Scenario Creation for Autonomous Vehicles](https://arxiv.org/pdf/2305.10080.pdf)
