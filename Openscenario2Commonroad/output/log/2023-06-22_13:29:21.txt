@@ -1,0 +1,71 @@
+esmini GIT REV: a95bded
+esmini GIT TAG: v2.29.3
+esmini GIT BRANCH: tags/v2.29.3^0
+esmini BUILD VERSION: 2.29.3.build.3137
+Generated seed 3266230696
+Loading /home/tianzheng/Documents/ASAMFiles/SimpleCurveScenario1/./SimpleCurve.xosc (v1.0)
+0 variables
+No road mark created for road 0 lane 1. Type 5 not supported. Either switch type or add a roadMark <type> element.
+No road mark created for road 0 lane 0. Type 6 not supported. Either switch type or add a roadMark <type> element.
+No road mark created for road 0 lane 1. Type 5 not supported. Either switch type or add a roadMark <type> element.
+No road mark created for road 0 lane 0. Type 6 not supported. Either switch type or add a roadMark <type> element.
+Unsupported object type: -1 - interpret as NONE
+Loaded OpenDRIVE: /home/tianzheng/Documents/ASAMFiles/SimpleCurveScenario1/././SimpleCurve.xodr
+UserDefinedAction is not implemented
+UserDefinedAction is not implemented
+0 parameters
+0.000: Starting teleport Action
+0.000: Sedan New position:
+0.000: Pos(65.33, -5.25, 0.00) Rot(0.00, 0.00, 0.00) roadId 0 laneId -1 offset 0.00 t -1.75
+0.000: Init Sedan TeleportAction standbyState -> startTransition -> runningState
+0.000: Init Sedan LongitudinalAction standbyState -> startTransition -> runningState
+0.000: Starting teleport Action
+0.000: SchoolBus New position:
+0.000: Pos(145.70, -1.28, 0.00) Rot(0.31, 0.00, 0.00) roadId 0 laneId -1 offset 0.00 t -1.75
+0.000: Init SchoolBus TeleportAction standbyState -> startTransition -> runningState
+0.000: Init SchoolBus LongitudinalAction standbyState -> startTransition -> runningState
+0.000: Init Sedan TeleportAction runningState -> endTransition -> completeState
+0.000: Init Sedan LongitudinalAction runningState -> endTransition -> completeState
+0.000: Init SchoolBus TeleportAction runningState -> endTransition -> completeState
+0.000: Init SchoolBus LongitudinalAction runningState -> endTransition -> completeState
+0.010: OSIReporter::UpdateOSIStationaryObjectODR -> Unsupported stationary object category
+0.010: Trigger /------------------------------------------------
+0.010: SimulationStart == true, 0.0100 > 0.00 edge: none
+0.010: Trigger  ------------------------------------------------/
+0.010: Act_GlobalGroup_Maneuver standbyState -> startTransition -> runningState
+0.010: Act_GlobalGroup standbyState -> startTransition -> runningState
+0.010: Act_GlobalGroup2_Maneuver standbyState -> startTransition -> runningState
+0.010: Act_GlobalGroup2 standbyState -> startTransition -> runningState
+0.010: Act standbyState -> startTransition -> runningState
+0.010: Trigger /------------------------------------------------
+0.010: EnclosingActRunning == true, element: Act state: RUNNING, edge: none
+0.010: Trigger  ------------------------------------------------/
+0.010: Trigger /------------------------------------------------
+0.010: SimulationStart2 == true, 0.0100 > 0.00 edge: none
+0.010: Trigger  ------------------------------------------------/
+0.010: Act2_Maneuver standbyState -> startTransition -> runningState
+0.010: Act2_SedanGroup standbyState -> startTransition -> runningState
+0.010: Act2 standbyState -> startTransition -> runningState
+0.010: Act_GlobalGroup_Event complete after 1 execution
+0.020: Act_GlobalGroup_Event standbyState -> endTransition -> completeState
+0.020: Act_GlobalGroup complete after 1 execution
+0.030: Act_GlobalGroup_Maneuver runningState -> endTransition -> completeState
+0.030: Act_GlobalGroup runningState -> endTransition -> completeState
+0.810: Trigger /------------------------------------------------
+0.810: Actor_Speed == true, speed: 0.00 == 0.00, edge: none
+0.810: Triggering entity 0: SchoolBus
+0.810: Distance_To_Actor == true, rel_dist: 59.88 < 60.00, edge: none
+0.810: Triggering entity 0: Sedan
+0.810: Trigger  ------------------------------------------------/
+0.810: Act runningState -> endTransition -> completeState
+0.810: Trigger /------------------------------------------------
+0.810: Phase_State == true, element: Act state: COMPLETE, edge: none
+0.810: Trigger  ------------------------------------------------/
+0.820: Act2_SedanGroup_Change_Speed standbyState -> startTransition -> runningState
+0.820: Act2_Event standbyState -> startTransition -> runningState
+5.280: Act2_Event complete after 1 execution
+5.290: Act2_SedanGroup_Change_Speed runningState -> endTransition -> completeState
+5.290: Act2_Event runningState -> endTransition -> completeState
+5.290: Act2_SedanGroup complete after 1 execution
+5.300: Act2_Maneuver runningState -> endTransition -> completeState
+5.300: Act2_SedanGroup runningState -> endTransition -> completeState

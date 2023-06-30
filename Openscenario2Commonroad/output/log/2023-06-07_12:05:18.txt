@@ -1,0 +1,10 @@
+esmini GIT REV: a95bded
+esmini GIT TAG: v2.29.3
+esmini GIT BRANCH: tags/v2.29.3^0
+esmini BUILD VERSION: 2.29.3.build.3137
+Generated seed 3651766604
+Loading /home/tianzheng/Documents/Github/commonroad-openscenario-converter/scenarios/from_esmini/xosc/./pedestrian_collision.xosc (v1.0)
+0 variables
+Failed to find OpenDRIVE file ../xodr/fabriksgatan.xodr
+0.000: Failed to initialize scenario player
+Closing
