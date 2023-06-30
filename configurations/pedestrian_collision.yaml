@@ -1,4 +1,0 @@
-debug:
-  plot_limit: [15, 42, -55, -5]
-  time_steps: [26, 38, 54]
-  write_to_xml: 1

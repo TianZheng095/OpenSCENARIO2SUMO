@@ -1,3 +1,0 @@
-debug:
-  plot_limit: [15, 42, -55, -5]
-  time_steps: [0, 1]
