@@ -81,8 +81,19 @@ There are some redundant roads generated from Openscenario to Commonroad. They a
 ![pics/originalCircle.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/originalCircle.png)
 ![pics/modifiedCircle.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/modifiedCircle.png)
 
+### Commonroad to SUMO conversion
+Fist way: using crdesigner GUI
+![pics/coversion2SUMO.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/coversion2SUMO.png)
+
+advantage: easy to operate
+shortcoming: no clear error message when encountering an error
+
+Second way: using the script
 
 
+
+advantage: clear error message when encountering an error
+shortcoming: complicate to operate
 
 ### Paper Reference
 1. [CommonRoad Scenario Designer: An Open-Source Toolbox for Map Conversion and Scenario Creation for Autonomous Vehicles](https://arxiv.org/pdf/2305.10080.pdf)
