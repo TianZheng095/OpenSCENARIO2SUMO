@@ -74,6 +74,7 @@ The generated simple curve scenario "OpenSCENRAIO2SUMO/output/SimpleCurve/OSC_Si
 
 ### Open Commonroad file with crdesigner GUI 
 Open the generated .xml file using the crdesigner GUI
+
 ![pics/openfileGUI.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/openfileGUI)
 
 
