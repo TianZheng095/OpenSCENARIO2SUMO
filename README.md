@@ -48,8 +48,8 @@ Note that you have to activate first the Python environment in which the CommonR
 
 
 
-### Development
-For developing purposes, we recommend using [Anaconda](https://www.anaconda.com/) to manage your environment so that
+### Openscenario to Commonroad Converter
+We recommend using [Anaconda](https://www.anaconda.com/) to manage your environment so that
 even if you mess something up, you can always have a safe and clean restart. 
 A guide for managing Python environments with Anaconda can be found [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
@@ -72,10 +72,12 @@ $ python OSC_Convert2_CR.py
 ```
 The generated simple curve scenario "OpenSCENRAIO2SUMO/output/SimpleCurve/OSC_SimpleCurve_1_T-1.xml" could be opened via the CommonRoad Scenario Designer.
 
-### Open Simulation Interface (OSI) and UDP Driver
-If you want to use the [esmini](https://github.com/esmini/esmini) UDPDriverController in combination with OSI for including
-external driver models or vehicle simulators, you need to install OSI manually, 
-see [here](https://github.com/OpenSimulationInterface/open-simulation-interface).
+### Open Commonroad file with crdesigner GUI 
+Open the generated .xml file using the crdesigner GUI
+
+![pics/openfileGUI.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/openfileGUI)
+
+
 
 
 ### Paper Reference
