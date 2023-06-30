@@ -3,7 +3,7 @@ from osc_cr_converter.utility.configuration import ConverterParams
 from osc_cr_converter.utility.visualization import visualize_scenario
 
 # scenario path and name
-openscenario = '' # replace by /.../OpenSCENARIO2SUMO/test/SimpleCurve.xosc
+openscenario = '' # replace by /.../OpenSCENARIO2SUMO/OpenscenarioFiles/SimpleCurve.xosc
 
 
 # build configuration
