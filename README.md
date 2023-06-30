@@ -72,6 +72,8 @@ $ python OSC_Convert2_CR.py
 ```
 The generated simple curve scenario "OpenSCENRAIO2SUMO/output/SimpleCurve/OSC_SimpleCurve_1_T-1.xml" could be opened via the CommonRoad Scenario Designer.
 
+![pics/scr2cr.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/scr2cr.png)
+
 ### Open Commonroad file with crdesigner GUI 
 Open the generated .xml file using the crdesigner GUI
 
