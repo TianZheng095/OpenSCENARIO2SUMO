@@ -48,13 +48,6 @@ Note that you have to activate first the Python environment in which the CommonR
 
 
 
-
-### Using the commonroad-openscenario-converter
-The recommended way of installation if you only want to use the OpenSCENARIO-CommonROAD Converter
-(i.e., you do not want to work with the code directly) is to use the PyPI package:
-```bash
-pip install commonroad-openscenario-converter
-```
 ### Development
 For developing purposes, we recommend using [Anaconda](https://www.anaconda.com/) to manage your environment so that
 even if you mess something up, you can always have a safe and clean restart. 
@@ -65,15 +58,11 @@ A guide for managing Python environments with Anaconda can be found [here](https
 ``` bash
 $ conda create -n commonroad-py39 python=3.9 -y
 $ conda activate commonroad-py39
-or
-$ source activate commonroad-py39
 ```
 - Then, install the dependencies with:
 
-```sh
-$ cd <path-to-this-repo>
-$ pip install .
-$ conda develop .
+```bash
+$ pip install commonroad-openscenario-converter
 ```
 
 - Test case:
