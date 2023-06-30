@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-06-27 19:18:37.723100 by randomTrips.py UNKNOWN
+<configuration>
+    <net-file value="/home/tianzheng/Documents/Github/commonroad-scenario-designer/output/DEU_A9-2_1_T-1_step100.cr.net.xml"/>
+    <additional-files value="/home/tianzheng/Documents/Github/commonroad-scenario-designer/output/DEU_A9-2_1_T-1_step100.cr.add.xml"/>
+    <output-trip-file value="/home/tianzheng/Documents/Github/commonroad-scenario-designer/output/DEU_A9-2_1_T-1_step100.cr.vehicles.trips.xml"/>
+    <route-file value="/home/tianzheng/Documents/Github/commonroad-scenario-designer/output/DEU_A9-2_1_T-1_step100.cr.vehicles.rou.xml"/>
+    <trip-attributes value="departLane=&quot;best&quot; departSpeed=&quot;max&quot; departPos=&quot;random_free&quot;"/>
+    <end value="30.0"/>
+    <seed value="1234"/>
+    <fringe-factor value="2147483646"/>
+    <validate value="True"/>
+    <period value="0.3125390673834229"/>
+</configuration>
+-->
+
+<!-- generated on 2023-06-27 19:18:37 by Eclipse SUMO duarouter Version 1.17.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/tianzheng/Documents/Github/commonroad-scenario-designer/output/DEU_A9-2_1_T-1_step100.cr.net.xml"/>
+        <additional-files value="/home/tianzheng/Documents/Github/commonroad-scenario-designer/output/DEU_A9-2_1_T-1_step100.cr.add.xml"/>
+        <route-files value="/home/tianzheng/Documents/Github/commonroad-scenario-designer/output/DEU_A9-2_1_T-1_step100.cr.vehicles.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/tianzheng/Documents/Github/commonroad-scenario-designer/output/DEU_A9-2_1_T-1_step100.cr.vehicles.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="30.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd"/>
