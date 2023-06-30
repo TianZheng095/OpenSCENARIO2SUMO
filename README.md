@@ -78,8 +78,8 @@ Open the generated .xml file using the crdesigner GUI
 ![pics/openfileGUI.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/openfileGUI)
 
 There are some redundant roads generated from Openscenario to Commonroad. They are able to be removed in this GUI to achieve a better and more reasonable conversion to SUMO later.
-![pics/originalCircle.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/originalCircle.png)
-![pics/modifiedCircle.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/modifiedCircle.png)
+![pics/circle.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/circle.png)
+
 
 ### Commonroad to SUMO conversion
 Fist way: using crdesigner GUI
