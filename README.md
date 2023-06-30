@@ -67,7 +67,7 @@ $ pip install commonroad-openscenario-converter
 
 - Test case:
 ```bash
-$ cd test
+$ cd Openscenario2Commonroad/test
 $ python OSC_Convert2_CR.py
 ```
 The generated simple curve scenario "OpenSCENRAIO2SUMO/output/SimpleCurve/OSC_SimpleCurve_1_T-1.xml" could be opened via the CommonRoad Scenario Designer.
@@ -83,13 +83,17 @@ There are some redundant roads generated from Openscenario to Commonroad. They a
 
 ### Commonroad to SUMO conversion
 Fist way: using crdesigner GUI
+
 ![pics/coversion2SUMO.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/coversion2SUMO.png)
 
 advantage: easy to operate
 shortcoming: no clear error message when encountering an error
 
 Second way: using the script
-
+```bash
+$ cd Commonroad2SUMO/tutorials/conversion_examples
+$ python example_commonroad_to_sumo.py
+```
 
 
 advantage: clear error message when encountering an error
