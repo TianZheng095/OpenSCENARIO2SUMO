@@ -17,8 +17,8 @@ if SUMO_AVAILABLE:
     from sumocr.visualization.video import create_video
 
 
-output_folder = "/home/tianzheng/Documents/Github/commonroad-scenario-designer/output"  # replace empty string
-scenario_name = "OSC_FreeDrive_1_T-1"  # replace empty string
+output_folder = ""  # replace empty string by /.../Commonroad2SUMO/output
+scenario_name = ""  # replace empty string by ModifiedCircleJunction-1_1_T-1
 input_file = os.path.join(output_folder, scenario_name + '.xml')
 
 scenario, planning_problem = CommonRoadFileReader(input_file).open()
