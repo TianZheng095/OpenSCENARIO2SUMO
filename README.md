@@ -101,6 +101,8 @@ $ python example_commonroad_to_sumo.py
 - Advantage: clear error message when encountering an error
 - Shortcoming: complicate to operate
 
+![pics/sumo.png](https://github.com/TianZheng095/OpenSCENARIO2SUMO/blob/main/pics/sumo.png)
+
 ### Paper Reference
 1. [CommonRoad Scenario Designer: An Open-Source Toolbox for Map Conversion and Scenario Creation for Autonomous Vehicles](https://arxiv.org/pdf/2305.10080.pdf)
 2. [Automatic Traffic Scenario Conversion from OpenSCENARIO to CommonRoad](https://arxiv.org/pdf/2305.10080.pdf)
