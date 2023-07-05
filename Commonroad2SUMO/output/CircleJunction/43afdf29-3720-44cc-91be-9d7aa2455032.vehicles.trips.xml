@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-07-05 11:09:32.591235 by randomTrips.py UNKNOWN
+<configuration>
+    <net-file value="/home/tianzheng/Documents/2Github/OpenSCENARIO2SUMO/Commonroad2SUMO/output/CircleJunction/43afdf29-3720-44cc-91be-9d7aa2455032.net.xml"/>
+    <additional-files value="/home/tianzheng/Documents/2Github/OpenSCENARIO2SUMO/Commonroad2SUMO/output/CircleJunction/43afdf29-3720-44cc-91be-9d7aa2455032.add.xml"/>
+    <output-trip-file value="/home/tianzheng/Documents/2Github/OpenSCENARIO2SUMO/Commonroad2SUMO/output/CircleJunction/43afdf29-3720-44cc-91be-9d7aa2455032.vehicles.trips.xml"/>
+    <route-file value="/home/tianzheng/Documents/2Github/OpenSCENARIO2SUMO/Commonroad2SUMO/output/CircleJunction/43afdf29-3720-44cc-91be-9d7aa2455032.vehicles.rou.xml"/>
+    <trip-attributes value="departLane=&quot;best&quot; departSpeed=&quot;max&quot; departPos=&quot;random_free&quot;"/>
+    <end value="30.0"/>
+    <seed value="1234"/>
+    <fringe-factor value="2147483646"/>
+    <validate value="True"/>
+    <period value="0.2376849486006298"/>
+</configuration>
+-->
+
+<!-- generated on 2023-07-05 11:09:32 by Eclipse SUMO duarouter Version 1.17.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/tianzheng/Documents/2Github/OpenSCENARIO2SUMO/Commonroad2SUMO/output/CircleJunction/43afdf29-3720-44cc-91be-9d7aa2455032.net.xml"/>
+        <additional-files value="/home/tianzheng/Documents/2Github/OpenSCENARIO2SUMO/Commonroad2SUMO/output/CircleJunction/43afdf29-3720-44cc-91be-9d7aa2455032.add.xml"/>
+        <route-files value="/home/tianzheng/Documents/2Github/OpenSCENARIO2SUMO/Commonroad2SUMO/output/CircleJunction/43afdf29-3720-44cc-91be-9d7aa2455032.vehicles.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/tianzheng/Documents/2Github/OpenSCENARIO2SUMO/Commonroad2SUMO/output/CircleJunction/43afdf29-3720-44cc-91be-9d7aa2455032.vehicles.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="30.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="truck" length="7.50" minGap="2.50" maxSpeed="36.11" probability="0.80" speedFactor="normc(0.95,0.19,0.20,2.00)" vClass="truck" impatience="0.09" guiShape="truck" width="2.60" lcStrategic="39.31" lcCooperative="1.92" lcSpeedGain="6.29" lcKeepRight="0.87" lcImpatience="0.17" lcMaxSpeedLatStanding="0.00" lcSigma="0.19" accel="1.06" decel="4.43" sigma="0.64"/>
+    <trip id="0" depart="0.00" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <vType id="passenger" length="5.00" minGap="2.50" maxSpeed="50.00" probability="4.00" speedFactor="normc(1.01,0.18,0.20,2.00)" vClass="passenger" impatience="0.07" guiShape="passenger" width="2.00" lcStrategic="15.14" lcCooperative="2.53" lcSpeedGain="14.38" lcKeepRight="0.86" lcImpatience="0.48" lcMaxSpeedLatStanding="0.00" lcSigma="0.10" accel="2.39" decel="6.05" sigma="0.61"/>
+    <trip id="1" depart="0.24" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="2" depart="0.48" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="3" depart="0.71" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="4" depart="0.95" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="5" depart="1.19" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="6" depart="1.43" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="7" depart="1.66" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="8" depart="1.90" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="9" depart="2.14" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="10" depart="2.38" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="11" depart="2.61" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="12" depart="2.85" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="13" depart="3.09" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="14" depart="3.33" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="15" depart="3.57" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="16" depart="3.80" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="17" depart="4.04" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="18" depart="4.28" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="19" depart="4.52" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="20" depart="4.75" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="21" depart="4.99" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="22" depart="5.23" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="23" depart="5.47" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <vType id="bus" length="12.40" minGap="2.50" maxSpeed="23.61" probability="0.30" speedFactor="normc(1.03,0.13,0.20,2.00)" vClass="bus" impatience="0.03" guiShape="bus" width="2.70" lcStrategic="80.12" lcCooperative="1.58" lcSpeedGain="13.19" lcKeepRight="0.86" lcImpatience="0.04" lcMaxSpeedLatStanding="0.00" lcSigma="0.13" accel="1.29" decel="4.35" sigma="0.52"/>
+    <trip id="24" depart="5.70" departLane="best" departPos="random_free" departSpeed="max" from="84" to="83"/>
+    <trip id="25" depart="5.94" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="26" depart="6.18" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="27" depart="6.42" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="28" depart="6.66" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="29" depart="6.89" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="30" depart="7.13" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="31" depart="7.37" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="32" depart="7.61" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="33" depart="7.84" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="34" depart="8.08" departLane="best" departPos="random_free" departSpeed="max" from="84" to="83"/>
+    <trip id="35" depart="8.32" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="36" depart="8.56" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="37" depart="8.79" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="38" depart="9.03" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="39" depart="9.27" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="40" depart="9.51" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <vType id="bicycle" length="2.00" minGap="1.00" maxSpeed="6.94" probability="0.20" speedFactor="normc(1.01,0.13,0.20,2.00)" vClass="bicycle" impatience="0.45" guiShape="bicycle" width="0.68" lcStrategic="25.58" lcCooperative="2.99" lcSpeedGain="5.28" lcKeepRight="0.86" lcImpatience="0.00" lcMaxSpeedLatStanding="0.00" lcSigma="0.20" accel="1.34" decel="2.79" sigma="0.53"/>
+    <trip id="41" depart="9.75" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="42" depart="9.98" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="43" depart="10.22" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="44" depart="10.46" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="45" depart="10.70" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="46" depart="10.93" departLane="best" departPos="random_free" departSpeed="max" from="84" to="83"/>
+    <trip id="47" depart="11.17" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="48" depart="11.41" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="49" depart="11.65" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="50" depart="11.88" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="51" depart="12.12" departLane="best" departPos="random_free" departSpeed="max" from="84" to="83"/>
+    <trip id="52" depart="12.36" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="53" depart="12.60" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="54" depart="12.83" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="55" depart="13.07" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="56" depart="13.31" departLane="best" departPos="random_free" departSpeed="max" from="84" to="83"/>
+    <trip id="57" depart="13.55" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="58" depart="13.79" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="59" depart="14.02" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="60" depart="14.26" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="61" depart="14.50" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="62" depart="14.74" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="63" depart="14.97" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="64" depart="15.21" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="65" depart="15.45" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="66" depart="15.69" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="67" depart="15.92" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="68" depart="16.16" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="69" depart="16.40" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="70" depart="16.64" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="71" depart="16.88" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="72" depart="17.11" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="73" depart="17.35" departLane="best" departPos="random_free" departSpeed="max" from="84" to="83"/>
+    <trip id="74" depart="17.59" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="75" depart="17.83" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="76" depart="18.06" departLane="best" departPos="random_free" departSpeed="max" from="84" to="83"/>
+    <trip id="77" depart="18.30" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="78" depart="18.54" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="79" depart="18.78" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="80" depart="19.01" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="81" depart="19.25" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="82" depart="19.49" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="83" depart="19.73" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="84" depart="19.97" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="85" depart="20.20" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="86" depart="20.44" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="87" depart="20.68" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="88" depart="20.92" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="89" depart="21.15" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="90" depart="21.39" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="91" depart="21.63" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="92" depart="21.87" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="93" depart="22.10" departLane="best" departPos="random_free" departSpeed="max" from="84" to="83"/>
+    <trip id="94" depart="22.34" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="95" depart="22.58" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+    <trip id="96" depart="22.82" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="97" depart="23.06" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="98" depart="23.29" departLane="best" departPos="random_free" departSpeed="max" from="84" to="83"/>
+    <trip id="99" depart="23.53" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="100" depart="23.77" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="101" depart="24.01" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="102" depart="24.24" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="103" depart="24.48" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="104" depart="24.72" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="105" depart="24.96" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="106" depart="25.19" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="107" depart="25.43" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="108" depart="25.67" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="109" depart="25.91" departLane="best" departPos="random_free" departSpeed="max" from="1" to="20"/>
+    <trip id="110" depart="26.15" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="111" depart="26.38" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="112" depart="26.62" departLane="best" departPos="random_free" departSpeed="max" from="84" to="4"/>
+    <trip id="113" depart="26.86" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="114" depart="27.10" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="115" depart="27.33" departLane="best" departPos="random_free" departSpeed="max" from="1" to="83"/>
+    <trip id="116" depart="27.57" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="117" depart="27.81" departLane="best" departPos="random_free" departSpeed="max" from="17" to="4"/>
+    <trip id="118" depart="28.05" departLane="best" departPos="random_free" departSpeed="max" from="84" to="83"/>
+    <trip id="119" depart="28.28" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="120" depart="28.52" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="121" depart="28.76" departLane="best" departPos="random_free" departSpeed="max" from="84" to="83"/>
+    <trip id="122" depart="29.00" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="123" depart="29.24" departLane="best" departPos="random_free" departSpeed="max" from="17" to="20"/>
+    <trip id="124" depart="29.47" departLane="best" departPos="random_free" departSpeed="max" from="84" to="20"/>
+    <trip id="125" depart="29.71" departLane="best" departPos="random_free" departSpeed="max" from="1" to="4"/>
+    <trip id="126" depart="29.95" departLane="best" departPos="random_free" departSpeed="max" from="17" to="83"/>
+</routes>

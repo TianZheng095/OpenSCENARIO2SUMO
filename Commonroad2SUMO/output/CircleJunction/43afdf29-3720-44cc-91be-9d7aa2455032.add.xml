@@ -1,0 +1,8 @@
+<additional>
+	<vTypeDistribution id="DEFAULT_VEHTYPE">
+		<vType id="passenger" guiShape="passenger" vClass="passenger" probability="4" length="5.0" width="2.0" minGap="2.5" accel="2.39" decel="6.05" maxSpeed="50.0" lcStrategic="15.14" lcSpeedGain="14.38" lcCooperative="2.53" sigma="0.61" speedDev="0.18" speedFactor="1.01" lcImpatience="0.48" impatience="0.07" lcMaxSpeedLatStanding="0.00" lcSigma="0.10" lcKeepRight="0.86"/>
+		<vType id="truck" guiShape="truck" vClass="truck" probability="0.8" length="7.5" width="2.6" minGap="2.5" accel="1.06" decel="4.43" maxSpeed="36.11111111111111" lcStrategic="39.31" lcSpeedGain="6.29" lcCooperative="1.92" sigma="0.64" speedDev="0.19" speedFactor="0.95" lcImpatience="0.17" impatience="0.09" lcMaxSpeedLatStanding="0.00" lcSigma="0.19" lcKeepRight="0.87"/>
+		<vType id="bus" guiShape="bus" vClass="bus" probability="0.3" length="12.4" width="2.7" minGap="2.5" accel="1.29" decel="4.35" maxSpeed="23.61111111111111" lcStrategic="80.12" lcSpeedGain="13.19" lcCooperative="1.58" sigma="0.52" speedDev="0.13" speedFactor="1.03" lcImpatience="0.04" impatience="0.03" lcMaxSpeedLatStanding="0.00" lcSigma="0.13" lcKeepRight="0.86"/>
+		<vType id="bicycle" guiShape="bicycle" vClass="bicycle" probability="0.2" length="2.0" width="0.68" minGap="1.0" accel="1.34" decel="2.79" maxSpeed="6.944444444444445" lcStrategic="25.58" lcSpeedGain="5.28" lcCooperative="2.99" sigma="0.53" speedDev="0.13" speedFactor="1.01" lcImpatience="0.00" impatience="0.45" lcMaxSpeedLatStanding="0.00" lcSigma="0.20" lcKeepRight="0.86"/>
+	</vTypeDistribution>
+</additional>
